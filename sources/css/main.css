@@ -29,7 +29,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url("../imgs/banner.png");
+    background: url("../imgs/fond2.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -39,7 +39,7 @@ section {
 
 .banner h2 {
     font-size: 3em;
-    color: #333333;
+    color: #c8bdbd;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -51,15 +51,15 @@ section {
 
 .banner h3 {
     font-size: 1.5em;
-    color: #333333;
+    color: #99a0a8;
     font-weight: 500;
 }
 
 .btn {
     position: relative;
-    background: #2196f3;
+    background: #37393b;
     display: inline-block;
-    color: #545f9c;
+    color: #dedfe7;
     margin-top: 20px;
     padding: 10px 30px;
     font-size: 18px;
@@ -70,8 +70,46 @@ section {
     border-radius: 5px;
 }
 
+.fondabout {
+    background: #4f4e53;
+}
+
 .btn:hover {
-    background: #7BC1F9;
+    background: #141516;
+}
+
+
+/*
+-- Banner jeux
+ */
+
+.bannerjeux {
+    position: relative;
+    min-height: 100vh;
+    background: url("../imgs/fondjeux.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerjeux h2 {
+    font-size: 3em;
+    color: #c8bdbd;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.bannerjeux h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.bannerjeux h3 {
+    font-size: 1.5em;
+    color: #abb0b6;
+    font-weight: 500;
 }
 
 
@@ -93,7 +131,7 @@ header {
 }
 
 header.sticky {
-    background: #545f9c;
+    background: #4f4e53;
     padding: 20px 200px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -189,11 +227,11 @@ img {
  */
 
 .work {
-    background: #545f9c;
+    background: #4f4e53;
 }
 
 .heading.white {
-    color: #545f9c;
+    color: #3e404d;
 }
 
 .work .content {
@@ -209,17 +247,17 @@ img {
 
 .work .content .workBx {
     padding: 40px 20px;
-    background: #545f9c;
+    background: #28282b;
     border-radius: 1em;
     max-width: 340px;
-    color: #333333;
+    color: #d6caca;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
 }
 
 .work .content .workBx:hover {
-    background: #545f9c;
+    background: #373738;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
 }
 
@@ -235,12 +273,15 @@ img {
  */
 
 .contact {
-    background: #5c648f;
+    background: #4f4e53;
 }
 
+
+/*
 .formBx {
     min-width: 60%;
 }
+*/
 
 .formBx form {
     display: flex;
@@ -249,7 +290,7 @@ img {
 
 .formBx form h3,
 .contactInfo h3 {
-    color: #333333;
+    color: #a7a1a1;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -260,10 +301,10 @@ img {
     margin-bottom: 20px;
     padding: 15px;
     font-size: 16px;
-    background: #566097;
+    background: #3d3d41;
     border: none;
     outline: none;
-    color: #111111;
+    color: #aca6a6;
     resize: none;
 }
 
@@ -278,11 +319,11 @@ img {
 
 .formBx form input[type="submit"] {
     max-width: 100px;
-    background: #7b9ab4;
+    background: #b4bcc2;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #566097;
+    color: #818492;
 }
 
 .contactInfo {
@@ -302,7 +343,7 @@ img {
 .contactInfoBx .box .icon {
     min-width: 40px;
     padding-top: 4px;
-    color: #333333;
+    color: #858080;
     justify-content: center;
     align-items: center;
     font-size: 24px;
@@ -312,38 +353,38 @@ img {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #333333;
+    color: #dad6d6;
     flex-direction: column;
     font-weight: 300;
 }
 
 .contactInfoBx .box .text p a {
-    color: #333333;
+    color: #d8cece;
 }
 
 .contactInfoBx .box .text h3 {
     font-weight: 500;
-    color: #5c99ca;
+    color: #c3cfda;
     margin-bottom: 0;
 }
 
 .copyright {
-    background: #5c648f;
-    color: #333333;
+    background: #3a3a3d;
+    color: #d8cfcf;
     text-align: center;
     padding: 10px;
 }
 
 .copyright a {
     text-decoration: none;
-    color: #333333;
+    color: #d8cfcf;
     text-align: center;
     padding: 10px;
 }
 
 .contactInfoBx .box .text a {
     text-decoration: none;
-    color: #566097;
+    color: #8d8e97;
 }
 
 hr {
@@ -371,7 +412,7 @@ Responsive
     header ul li a {
         font-size: 24px;
         margin: 10px;
-        color: #5c648f;
+        color: #c0bdc8;
     }
     .menu {
         position: fixed;
@@ -382,7 +423,7 @@ Responsive
         text-align: center;
         width: 100%;
         height: 100vh;
-        background: #111;
+        background: #4f4e53;
         transition: 0.5s;
         z-index: 999;
         border-top: 1px solid rgba(0, 0, 0, 0.2);

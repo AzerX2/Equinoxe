@@ -21,7 +21,18 @@ section {
     padding: 300px;
 }
 
-
+.colorb {
+    color : #fcfcfc;
+}
+.reset {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.thisPage {
+    color: #ffffff;
+    box-shadow: inset 0 -3px 0 0 #ffffff;
+    box-shadow: none;
+}
 /*
 -- Banner
  */
@@ -29,7 +40,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url("../imgs/fond2.png");
+    background: url("../imgs/fond4.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -39,7 +50,7 @@ section {
 
 .banner h2 {
     font-size: 3em;
-    color: #c8bdbd;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -51,7 +62,7 @@ section {
 
 .banner h3 {
     font-size: 1.5em;
-    color: #99a0a8;
+    color: #1e1c1c;
     font-weight: 500;
 }
 
@@ -71,11 +82,11 @@ section {
 }
 
 .fondabout {
-    background: #4f4e53;
+    background: #1e1c1c;
 }
 
 .btn:hover {
-    background: #141516;
+    background: #9a9ea2;
 }
 
 
@@ -86,7 +97,7 @@ section {
 .bannerjeux {
     position: relative;
     min-height: 100vh;
-    background: url("../imgs/fondjeux.png");
+    background: url("../imgs/fond4.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -131,13 +142,13 @@ header {
 }
 
 header.sticky {
-    background: #4f4e53;
+    background: #18181a;
     padding: 20px 200px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgb(87, 82, 82);
 }
 
 header .logo {
-    color: #111111;
+    color: #ffffff;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -164,7 +175,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #999999;
+    color: #262525;
     text-decoration: overline;
 }
 
@@ -177,7 +188,7 @@ header ul li a:hover {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
-    color: #111;
+    color: #ffffff;
 }
 
 .heading {
@@ -227,11 +238,11 @@ img {
  */
 
 .work {
-    background: #4f4e53;
+    background: #1e1c1c;
 }
 
 .heading.white {
-    color: #3e404d;
+    color: #ffffff;
 }
 
 .work .content {
@@ -273,7 +284,7 @@ img {
  */
 
 .contact {
-    background: #4f4e53;
+    background: #1e1c1c;
 }
 
 
@@ -301,7 +312,7 @@ img {
     margin-bottom: 20px;
     padding: 15px;
     font-size: 16px;
-    background: #3d3d41;
+    background: #1e1c1c;
     border: none;
     outline: none;
     color: #aca6a6;
@@ -412,7 +423,7 @@ Responsive
     header ul li a {
         font-size: 24px;
         margin: 10px;
-        color: #c0bdc8;
+        color: #ffffff;
     }
     .menu {
         position: fixed;
@@ -423,10 +434,10 @@ Responsive
         text-align: center;
         width: 100%;
         height: 100vh;
-        background: #4f4e53;
+        background: #afa6a6;
         transition: 0.5s;
         z-index: 999;
-        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        border-top: 1px solid rgb(255, 255, 255);
     }
     .menu.active {
         left: 0;

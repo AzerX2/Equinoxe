@@ -7,6 +7,7 @@
     <title>Equinox</title>
 
     <link rel="stylesheet" href="sources/css/main.css">
+
     <link rel="shortcut icon" href="sources/imgs/logo.png">
 
     <meta name="description" content="Projet de jeux vidéo">
@@ -25,13 +26,17 @@
             </ul>
         </div>
     </header>
-    <section class="bannerjeux" id="home">
-        <div class="textBx">
-            <h2><span>Equinox</span></h2>
-            <h3>Un projet porté par des étudiants passionés</h3>
-            <a href="#contact" class="btn">Info</a>
+
+    <section class="showcase" id="home">
+        <div class="video-container">
+            <video src="sources/imgs/EquinoxMenu.mp4" autoplay muted loop></video>
         </div>
+        <div class="content">
+            <a href="#about" class="btn2">Equinox</a>
+        </div>
+
     </section>
+
     <section class="about fondabout" id="about">
         <div class="heading colorb">
             <h2 class="colorb">A propos</h2>
@@ -55,6 +60,16 @@
                     que mentalement. Il devra faire attention à ses ressources et progresser dans ses découvertes pour répondre à ses questions et comprendre les circonstances qui ont menées à la périclitation de l’humanité.<br></p>
 
             </div>
+                <div class="contactInfoBx">
+
+                    <div class="box">
+                        <div class="icon">
+                            <div class="text">
+                                <p><a href="jeux.html">Page Téléchargement - Rapport</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
         </div>
@@ -65,12 +80,6 @@
         </div>
         <hr>
         <div class="content">
-            <div class="workBx">
-                <img src="sources/imgs/icon2.png" alt="icon1">
-                <h2>Hugo</h2>
-                <p>Développeur de projets en backend depuis plusieurs années, j’ai acquis tout au cours de mon parcours différentes compétences notamment dans le game design. Le projet S2 me permettra de partager mes connaissances avec les membres de mon
-                    groupe et de les déployer par le biais de notre jeu vidéo. J’ai également réalisé nombre de projets en groupe et je sais organiser et répartir les tâches afin que chacun puisse pleinement s’épanouir dans son travail.</p>
-            </div>
             <div class="workBx">
                 <img src="sources/imgs/icon4.png" alt="icon1">
                 <h2>Matthieu</h2>
@@ -93,57 +102,20 @@
 
         </div>
     </section>
-    <section class="contact" id="contact">
-        <div class="heading">
-            <h2 class="colorb">Information</h2>
-        </div>
-        <hr>
-        <div class="content">
-            <div class="contactInfo">
-                <h3>Contact Info</h3>
-                <div class="contactInfoBx">
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-envelope-o"></i>
-                            <div class="text">
-                                <h3>Email</h3>
-                                <p>support@equinox.web-edu.fr <br>contact@equinox.web-edu.fr</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fab fa-github"></i>
-                            <div class="text">
-                                <h3>Github</h3>
-                                <p><a href="https://github.com/ProjetS2-epita/Equinox-Public">Notre github</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contactInfo">
-                <h3>Télécharger notre jeux</h3>
-                <div class="contactInfoBx">
 
-                    <div class="box">
-                        <div class="icon">
-                            <div class="text">
-                                <p><a href="jeux.html">Page Téléchargement - Rapport</a></p>
-                            </div>
-                        </div>
-                    </div>
+    <section class="contact" id="contact">
+        <div class="contact2">
+            <div class="contact2-info">
+
+                <h3>Une information ? Une Question ?</h3>
+                <p>L'équipe de développement du jeu Equinox est à votre disposition pour vous aidez, n'hésitez surtout pas</p>
+                <a href="https://equinox.web-edu.fr" title="Email" target="_blank" class="contact2-btn">Contacter 📌</a>
+                <div class="links2">
+                    <a href="https://github.com/ProjetS2-epita"><img src="sources/imgs/Github.png" alt="Github"></a>
+                    <a href="https://discord.gg/ARb5BYbnXt"><img src="sources/imgs/discord.png" alt="Discord"></a>
                 </div>
             </div>
-            <div class="formBx">
-                <form>
-                    <h3>Message Us</h3>
-                    <input type="text" name="" placeholder="Full Name">
-                    <input type="email" name="" placeholder="Email">
-                    <textarea placeholder="Your Message"></textarea>
-                    <input type="submit" value="send">
-                </form>
-            </div>
+
         </div>
     </section>
     <div class="copyright">

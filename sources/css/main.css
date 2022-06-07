@@ -22,20 +22,83 @@ section {
 }
 
 .colorb {
-    color : #fcfcfc;
+    color: #fcfcfc;
 }
+
 .reset {
     color: #fcfcfc;
     text-decoration: none;
 }
+
 .thisPage {
     color: #ffffff;
     box-shadow: inset 0 -3px 0 0 #ffffff;
     box-shadow: none;
 }
+
+
 /*
 -- Banner
  */
+.showcase {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    center/cover;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-container:after {
+    content: '';
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.content {
+    z-index: 2;
+}
+.btn2 {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    border: solid #fff 1px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.btn2:hover {
+    transform: scale(0.98);
+}
+
+
+
 
 .banner {
     position: relative;
@@ -97,7 +160,7 @@ section {
 .bannerjeux {
     position: relative;
     min-height: 100vh;
-    background: url("../imgs/fond4.png");
+    background: url("../imgs/banner2.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -403,7 +466,64 @@ hr {
     margin-bottom: 50px;
 }
 
+/*
+    ||||||          ||||||
+            CONTACT
+    ||||||          ||||||
+ */
 
+.contact2
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.contact2-info
+{
+    font-size: 24px;
+}
+.contact2-info h3
+{
+    margin-bottom: 30px;
+    color: #74D0F1;
+}
+.contact2-info p
+{
+    margin-bottom: 20px;
+}
+.contact2-btn
+{
+    position: relative;
+    border: solid 2px #74D0F1;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 10px;
+}
+.about2-btn:hover
+{
+    background: #7BC1F9;
+}
+.contact2 .w50 img
+{
+    width: 500px;
+}
+.links2
+{
+    padding: 20px;
+}
+.links2 img
+{
+    width: 60px;
+}
 /*
 Responsive
  */
